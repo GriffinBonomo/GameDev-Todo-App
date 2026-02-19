@@ -3,7 +3,7 @@ version: "3.9"
 services:
   frontend:
     image: node:20-alpine
-    container_name: am-radio-frontend
+    container_name: gamedev-todo-frontend
     working_dir: /app
     volumes:
       - ./frontend:/app
